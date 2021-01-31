@@ -1,12 +1,3 @@
-fun main (){
-    val c=Circle(5,"red")
-   
-
-    println(c.radius)
-    c.printSurfaceArea()
-    println(c.attributesToStrings(color = "red"))
-    
-}
 class Circle(val radius: Int, color :String ) {
 
     constructor(radius: Int) : this(radius, color = "")   {
@@ -26,8 +17,13 @@ class Circle(val radius: Int, color :String ) {
 
         println("radius=$radius,color=$color")
     }
-
-
-
 }
+fun main (){
+    val c=Circle(5,"red")
+   
 
+    println(c.radius)
+    c.printSurfaceArea()
+    println(c.attributesToStrings(color = "red"))
+    
+}
