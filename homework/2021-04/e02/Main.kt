@@ -1,9 +1,9 @@
-open class Person(name: String){
+open class Person( var name: String){
 
     open fun sleep () {
-        println("jack sleeps") }
+        println("$name sleeps") }
     open fun drink() {
-        println("jack drink water")
+        println("$name drinks water")
     }
     override fun toString (): String {
         var name = println("name=jack")
@@ -13,18 +13,19 @@ open class Person(name: String){
  class Programmer(name:String, salary:Int):Person(name) {
  
      override fun drink() {
-         println("tina drinks energy water")
+ 
+         println("$name drinks energy water")
      }
      override fun sleep() {
-         println("tina sleeps")
+         println("$name sleeps")
      }
  
      fun codeApps (){
-         println("tina code apps")
+         println("$name code apps")
      }
  
      override fun toString (): String {
-         var x = println("name=tina,salary=4000")
+         var x = println("name=$name,salary=4000")
          return x.toString()
  
      }
@@ -34,7 +35,7 @@ open class Person(name: String){
      val tina: Programmer = Programmer("tina", 4000)
      val jack:Person=Person("jack")
  
-    
+     
      println(tina.toString())
      tina.drink()
      tina.sleep()
