@@ -15,7 +15,7 @@ class Circle(val radius: Int, color :String ) {
     fun attributesToStrings(color: String) {
 
 
-        println("radius=$radius,color=$color")
+        println ("radius=$radius,color=$color")
     }
 }
 fun main (){

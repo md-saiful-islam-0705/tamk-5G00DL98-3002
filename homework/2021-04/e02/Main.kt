@@ -12,23 +12,21 @@ open class Person( var name: String){
  }
  class Programmer(name:String, salary:Int):Person(name) {
  
-     override fun drink() {
- 
+    override fun drink() {
          println("$name drinks energy water")
-     }
-     override fun sleep() {
+    }
+    override fun sleep() {
          println("$name sleeps")
-     }
- 
-     fun codeApps (){
+    }
+    fun codeApps (){
          println("$name code apps")
-     }
+    }
  
-     override fun toString (): String {
+    override fun toString (): String {
          var x = println("name=$name,salary=4000")
          return x.toString()
  
-     }
+    }
  
  }
  fun main () {
