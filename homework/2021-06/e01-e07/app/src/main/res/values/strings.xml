@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">IsItPalindrome</string>
+    <string name="app_name" translatable="false">IsItPalindrome</string>
+    <string name="yes" translatable="false">YES</string>
+    <string name="is_it_palindrome" translatable="false">IS IT PALINDROME ?</string>
+    <string name="saippuakauppias">saippuakauppias</string>
+    <string name="text_view">Text view</string>
 </resources>
